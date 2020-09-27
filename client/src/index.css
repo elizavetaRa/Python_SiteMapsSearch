@@ -31,7 +31,7 @@ table th, table td { white-space: nowrap; }
 }
 
 .action-buttons-bottom-row {
-  margin: 20px;
+  margin: 10px auto 10px 0px !important;
 }
 
 .row-actions-container {
@@ -49,6 +49,32 @@ table th, table td { white-space: nowrap; }
 .outer-container {
   padding-top: 20px;
   padding-bottom: 20px;
-  background-repeat: no-repeat;
-  background-position: 50%;
+
+  items-align: center;
+}
+
+.edit-del-action-container {
+  float: right;
+}
+
+.empty-container-card {
+  text-align: center;
+}
+
+.scraped-data-inner-container {
+  display: list-item;
+  font-size: small;
+}
+.scraped-data-inner-container > label {
+    font-weight: bold;
+}
+
+.inner-card {
+  margin: 10px;
+}
+
+.toggle-arrow {
+  float: right;
+  height: 10px;
+  width: 20px;
 }
